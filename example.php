@@ -44,6 +44,7 @@ if ( isset($_POST['name']) ) {
 	$record_permalink = $name;
 	$record_permalink = strtolower(preg_replace(array_keys($clean_special_chars), array_values($clean_special_chars), $record_permalink));
 	$record_permalink = preg_replace('/[^A-Za-z0-9\-]/', '-', $record_permalink);
+	$record_permalink = preg_replace("/[\-]+/", '-', $record_permalink);
 	// SET PERMALINK --> END
 
 
