@@ -1,6 +1,8 @@
 # php-permalink-slug-link-generator
 Generate automatic links for your dynamic pages and contents.
 
+Example link: https://dev.topbiz.pt/permalinks/
+
 Feel free to contact me if you have any difficulties.
 
 <strong>If you want to thank me...</strong>
